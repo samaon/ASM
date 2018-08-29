@@ -1,0 +1,76 @@
+body {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/*-------------------------------
+# site-header
+-------------------------------*/
+
+.carousel-caption {
+  background: #f0f0f0;
+  border-radius: 4px;
+}
+.logo-header {
+  text-align: center;
+}
+.logo-brand {
+  font-size: 40px;
+}
+
+.carousel-indicators {
+  text-orientation: unset;
+}
+.carousel-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+/*-------------------------------
+# site-content
+-------------------------------*/
+
+.content-area {
+    background: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.content-area .col-sm-8 article {
+    border: 5px solid #f0f0f0;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+.single_post {
+  margin-top: 20px;
+}
+
+
+
+
+
+
+/*-------------------------------
+# container-footer
+-------------------------------*/
+
+.content-footer { 
+    background-color: #30c2d6;
+}
+
+.content-footer h3{
+    color: #ffffff;
+}
+.carousel-inner img {
+    width: 100%; 
+    margin: auto;
+    min-height:200px;
+}
+
+/* Hide the carousel text when the screen is less than 600 pixels wide */
+@media (max-width: 600px) {
+.carousel-caption {
+display: none; 
+}
+}
