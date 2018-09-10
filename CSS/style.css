@@ -3,6 +3,7 @@ body {
   padding-right: 10px;
 }
 
+
 /*-------------------------------
 # site-header
 -------------------------------*/
@@ -79,6 +80,8 @@ body {
 
 .content-footer h3{
     color: #ffffff;
+    border-bottom: 2px solid #ffffff;
+    padding: 10px 0;
 }
 .carousel-inner img {
     width: 100%; 
