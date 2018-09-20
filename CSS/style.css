@@ -14,12 +14,19 @@ body {
 .logo-brand {
   font-size: 40px;
 }
+
+
+ul.nav > li:first-child a {
+  margin: 0;  
+}
+
 .carousel-indicators {
   text-orientation: unset;
 }
 .carousel-inner {
     max-width: 1200px;
     margin: 0 auto;
+    border-radius: 10px;
 }
 .item {
     position: relative;
@@ -65,7 +72,87 @@ body {
   margin-top: 20px;
 }
 
+.social-sharing {
+    margin-top: 20px;
+    clear: both;
+}
+.social-sharing ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.social-sharing li {
+    display: inline-block;
+    margin: 0 5px 0 0;
+}
+.social-sharing li a {
+    -webkit-font-smoothing: antialiased;
+    -webkit-transition: background-color .2s ease-in-out;
+    -moz-transition: background-color .2s ease-in-out;
+    -o-transition: background-color .2s ease-in-out;
+    transition: background-color .2s ease-in-out;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+    font-size: 18px;
+    width: 120px;
+    height: 28px;
+    text-align: left;
+    text-decoration: none;
+    line-height: 28px;
+    display: block;
+    color: #ffffff;
+    padding: 0 10px;
+    font-weight: bold;
 
+}
+.social-sharing li a i {
+    font-size: 16px;
+    line-height: 28px;
+    position: relative;
+    z-index: 2;
+}
+
+.social-sharing li a span {
+    position: relative;
+    z-index: 2;
+    font-size: 12px;
+    float: right;
+}
+
+.social-sharing li a:before {
+    content: '';
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+
+
+.social-sharing .facebook a {
+    background-color: rgba(61, 90, 152, 1);
+}
+.social-sharing .facebook a:before {
+    border-top: 70px solid #324A7E;
+    border-right: 70px solid transparent;
+}
+.social-sharing .facebook a:hover:before {
+    border-top: 150px solid #324A7E;
+    border-right: 186px solid transparent;
+}
+.fa-facebook-f:before, .fa-facebook:before {
+    content: "\f09a";
+}
 
 
 

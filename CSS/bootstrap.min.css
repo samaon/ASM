@@ -962,8 +962,12 @@ pre code {
   }
 }
 
-.container-fluid {
+#myNavbar {
   background-color: #30c2d6;
+  border-radius: 5px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  z-index: 2;
+  margin-bottom: 20px;
 }
 
 .row {
@@ -6097,7 +6101,7 @@ button.close {
 
 .carousel {
   position: relative;
-  border-bottom: 20px solid #30c2d6;
+  margin-bottom: 20px;
 }
 
 .carousel-inner {
