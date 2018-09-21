@@ -348,7 +348,7 @@ html {
 }
 
 body {
-  font-family: 'Hanuman', serif;
+  font-family: Hanuman,'Roboto Condensed',Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
   font-size: 14px;
   line-height: 1.42857143;
   color: #333;
