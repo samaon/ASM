@@ -67,7 +67,12 @@ ul.nav > li:first-child a {
     margin-top: 20px;
     border: 5px solid #f0f0f0;
     border-radius: 10px;
-    padding: 20px;
+}
+.post-content {
+    padding: 0 25px 15px 25px;
+}
+.post-thumbnail img {
+    border-radius: 6px 6px 0 0;
 }
 .single_post {
   margin-top: 20px;
