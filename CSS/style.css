@@ -80,6 +80,7 @@ ul.nav > li:first-child a {
 
 .social-sharing {
     margin-top: 20px;
+    margin-bottom: 16px;
     clear: both;
 }
 .social-sharing ul {
@@ -156,13 +157,56 @@ ul.nav > li:first-child a {
     border-top: 150px solid #324A7E;
     border-right: 186px solid transparent;
 }
-.fa-facebook-f:before, .fa-facebook:before {
-    content: "\f09a";
+
+
+.social-sharing .twitter a {
+    background-color: rgba(9, 176, 237, 1);
+}
+.social-sharing .twitter a:before {
+    border-top: 70px solid #0690C2;
+    border-right: 70px solid transparent;
+}
+.social-sharing .twitter a:hover:before {
+    border-top: 150px solid #0690C2;
+    border-right: 186px solid transparent;
+}
+
+.social-sharing .googleplus a {
+    background-color: rgba(209, 71, 53, 1);
+}
+.social-sharing .googleplus a:before {
+    border-top: 70px solid #e75c3c;
+    border-right: 70px solid transparent;
+}
+.social-sharing .googleplus a:hover:before {
+    border-top: 150px solid #e75c3c;
+    border-right: 186px solid transparent;
 }
 
 
+.social-sharing .pinterest a {
+    background-color: rgba(203, 33, 39, 1);
+}
+.social-sharing .pinterest a:before {
+    border-top: 70px solid #AD1B20;
+    border-right: 70px solid transparent;
+}
+.social-sharing .pinterest a:hover:before {
+    border-top: 150px solid #AD1B20;
+    border-right: 186px solid transparent;
+}
 
-
+.social-sharing .linkedin a {
+    background-color: rgba(3, 90, 135, 1);
+}
+.social-sharing .linkedin a:before {
+    border-top: 70px solid #03496E;
+    border-right: 70px solid transparent;
+}
+.social-sharing .linkedin a:hover:before {
+    border-top: 150px solid #03496E;
+    border-right: 186px solid transparent;
+}
 /*-------------------------------
 # container-footer
 -------------------------------*/
