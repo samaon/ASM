@@ -78,6 +78,28 @@ ul.nav > li:first-child a {
   margin-top: 20px;
 }
 
+.entry-meta {
+    width: 100%;
+    font-size: 0.875em;
+    margin-top: 20px;
+    padding-top: 15px;
+    border-top: 1px solid #eaeaea;
+    clear: both;
+}
+.entry-meta > span {
+    position: relative;
+    padding-right: 16px;
+}
+
+.entry-meta > span::after, .entry-meta > span::after {
+    content: '|';
+    position: absolute;
+    right: 4px;
+    line-height: normal;
+}
+.entry-footer > span:last-child:after, .entry-meta > span:last-child:after {
+    content: '';
+}
 .social-sharing {
     margin-top: 20px;
     margin-bottom: 16px;
