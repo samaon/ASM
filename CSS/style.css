@@ -15,6 +15,9 @@ body {
   font-size: 40px;
 }
 
+.logo-brand > img {
+    max-width: 340px;
+}
 
 ul.nav > li:first-child a {
   margin: 0;  
