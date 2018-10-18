@@ -94,6 +94,10 @@ ul.nav > li:first-child a {
     padding-right: 16px;
 }
 
+.col-sm-12 li {
+    text-align: left;
+}
+
 .entry-meta > span::after, .entry-meta > span::after {
     content: '|';
     position: absolute;
@@ -250,6 +254,15 @@ ul.nav > li:first-child a {
     width: 100%; 
     margin: auto;
     min-height:200px;
+}
+
+.col-sm-12 {
+    background: #fff;
+    padding: 12px 0;
+    text-align: center;
+}
+.col-sm-12 p {
+    margin: 0;
 }
 
 /* Hide the carousel text when the screen is less than 600 pixels wide */
