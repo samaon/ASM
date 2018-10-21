@@ -97,6 +97,10 @@ ul.nav > li:first-child a {
 .col-sm-12 li {
     text-align: left;
 }
+#listoftemple {
+    margin-top: 12px;
+    margin-bottom: 20px;
+}
 
 .entry-meta > span::after, .entry-meta > span::after {
     content: '|';
