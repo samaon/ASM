@@ -245,7 +245,7 @@ ul.nav > li:first-child a {
 -------------------------------*/
 
 .content-footer { 
-    background-color: #30c2d6;
+    background-color: #216bb3;
     margin-top: 20px;
 }
 
@@ -254,6 +254,10 @@ ul.nav > li:first-child a {
     border-bottom: 2px solid #ffffff;
     padding: 10px 0;
 }
+.footer-inner {
+    margin-bottom: 20px;
+}
+
 .carousel-inner img {
     width: 100%; 
     margin: auto;
