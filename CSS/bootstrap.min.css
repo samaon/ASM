@@ -365,13 +365,13 @@ textarea {
 }
 
 a {
-  color: #0d4075;
+  color: #df6d26;
   text-decoration: none
 }
 
 a:focus,
 a:hover {
-  color: #23527c;
+  color: #ff9933;
   text-decoration: underline
 }
 
@@ -964,8 +964,7 @@ pre code {
 }
 
 #myNavbar {
-  background-color: #216bb3;
-  border-radius: 5px;
+  background-color: #ff9933;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
   z-index: 2;
   margin-bottom: 20px;
@@ -3684,6 +3683,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
 
 .navbar {
     position: relative;
+    background: #fff;
     width: 100%;
 }
 
@@ -3881,12 +3881,16 @@ textarea.input-group-sm>.input-group-btn>.btn {
   border: none;
   margin: 0;
 }
-
+.search-container form {
+  margin: 0;
+}
 .search-container button {
   float: right;
-  padding: 6px 10px;
+  height: 36px;
+  width: 36px;
   margin-right: 16px;
-  background: #ddd;
+  background: #df6d26;
+  color: #fff;
   font-size: 17px;
   border: none;
   cursor: pointer;
@@ -4208,14 +4212,14 @@ fieldset[disabled] .navbar-default .btn-link:hover {
 }
 
 .navbar-inverse .navbar-nav>li>a:hover {
-  background: #0d4075;
+  background: #df6d26;
 }
 
 .navbar-inverse .navbar-nav>.active>a,
 .navbar-inverse .navbar-nav>.active>a:focus,
 .navbar-inverse .navbar-nav>.active>a:hover {
     color: #fff;
-    background-color: #0d4075;
+    background-color: #df6d26;
     padding: 28px;
 }
 

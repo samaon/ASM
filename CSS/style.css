@@ -7,7 +7,9 @@ body {
 /*-------------------------------
 # site-header
 -------------------------------*/
-
+.container-fluid {
+    border-top: 2px solid #f0f0f0;
+}
 .logo-header {
   text-align: center;
 }
@@ -257,7 +259,11 @@ ul.nav > li:first-child a {
 .footer-inner {
     margin-bottom: 20px;
 }
-
+.footer-inner li,
+.footer-inner p,
+.footer-inner a {
+    color: #fff;
+}
 .carousel-inner img {
     width: 100%; 
     margin: auto;
