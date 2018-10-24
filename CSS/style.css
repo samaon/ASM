@@ -104,6 +104,10 @@ ul.nav > li:first-child a {
     margin-bottom: 20px;
 }
 
+.entry-content > p {
+    text-align: left;
+}
+
 .entry-meta > span::after, .entry-meta > span::after {
     content: '|';
     position: absolute;
@@ -264,6 +268,48 @@ ul.nav > li:first-child a {
 .footer-inner a {
     color: #fff;
 }
+
+.list-socail a {
+    display: inline-block;
+    width: 170px;
+    background-color: #1e4f80;
+    border: 1px solid #1e4f80;
+    padding: 10px;
+    margin-bottom: 1px;
+    text-align: center;
+}
+
+.facebook:hover {
+    text-decoration: none;
+    background-color: #4267b2;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+}
+.youtube:hover {
+    text-decoration: none;
+    background-color: #f00;
+    border: 1px solid #ffffff;    
+    color: #ffffff;
+}
+.googleplus:hover {
+    text-decoration: none;
+    background-color: #d54836;
+    border: 1px solid #ffffff;    
+    color: #ffffff;
+}
+.tweet:hover {
+    text-decoration: none;
+    background-color: #1da1f2;
+    border: 1px solid #ffffff;    
+    color: #ffffff;
+}
+.linkedin:hover {
+    text-decoration: none;
+    background-color: #0274b3;
+    border: 1px solid #ffffff;    
+    color: #ffffff;  
+}
+
 .carousel-inner img {
     width: 100%; 
     margin: auto;
@@ -275,8 +321,10 @@ ul.nav > li:first-child a {
     padding: 12px 0;
     text-align: center;
 }
-.col-sm-12 p {
+.site-info p {
     margin: 0;
+    color: #ff9933;
+    font-weight: 700;
 }
 
 /* Hide the carousel text when the screen is less than 600 pixels wide */

@@ -945,6 +945,12 @@ pre code {
   margin-left: auto
 }
 
+@media (max-width:768px) {
+  .search-container {
+    display: none;
+  }
+}
+
 @media (min-width:768px) {
   .container {
     width: 750px
@@ -955,6 +961,7 @@ pre code {
   .container {
     width: 970px
   }
+
 }
 
 @media (min-width:1200px) {
