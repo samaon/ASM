@@ -972,7 +972,6 @@ pre code {
 
 #myNavbar {
   background-color: #ff9933;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
   z-index: 2;
   margin-bottom: 20px;
 }
@@ -3690,7 +3689,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
 
 .navbar {
     position: relative;
-    background: #fff;
+    background: #03496e;
     width: 100%;
 }
 
@@ -3896,7 +3895,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
   height: 36px;
   width: 36px;
   margin-right: 16px;
-  background: #df6d26;
+  background: #03496e;
   color: #fff;
   font-size: 17px;
   border: none;
@@ -4219,14 +4218,14 @@ fieldset[disabled] .navbar-default .btn-link:hover {
 }
 
 .navbar-inverse .navbar-nav>li>a:hover {
-  background: #df6d26;
+  background: #03496e;
 }
 
 .navbar-inverse .navbar-nav>.active>a,
 .navbar-inverse .navbar-nav>.active>a:focus,
 .navbar-inverse .navbar-nav>.active>a:hover {
     color: #fff;
-    background-color: #df6d26;
+    background-color: #03496e;
     padding: 28px;
 }
 
