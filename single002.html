@@ -10,8 +10,26 @@
    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <script src="jquery/jquery.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
+  <script>
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+           if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+              document.getElementById("myBtn").style.display = "block";
+          } else {
+              document.getElementById("myBtn").style.display = "none";
+          }
+      }
+
+  function topFunction() {
+       document.body.scrollTop = 0;
+       document.documentElement.scrollTop = 0;
+      }
+</script>
 
 </head>
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
   <body>
         <header id="masthead" class="site-header">
             <div class="container"> 
