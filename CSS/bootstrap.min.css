@@ -949,12 +949,16 @@ pre code {
   .search-container {
     display: none;
   }
+  .logo-brand > img {
+    max-width: 250px;
+  }
 }
 
 @media (min-width:768px) {
   .container {
     width: 750px
   }
+
 }
 
 @media (min-width:992px) {

@@ -122,8 +122,11 @@ ul.nav > li:first-child a {
 # table
 -------------------------------*/
 
+.table {
+    overflow: auto;
+}
+
 #member {
-    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
     border-collapse: collapse;
     width: 100%;
 }
