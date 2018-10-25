@@ -945,7 +945,7 @@ pre code {
   margin-left: auto
 }
 
-@media (max-width:768px) {
+@media (max-width:1080px) {
   .search-container {
     display: none;
   }
@@ -959,7 +959,8 @@ pre code {
 
 @media (min-width:992px) {
   .container {
-    width: 970px
+    width: 970px;
+
   }
 
 }
@@ -4205,11 +4206,12 @@ fieldset[disabled] .navbar-default .btn-link:hover {
   color: #9d9d9d
 }
 
-.navbar-inverse .navbar-nav>li>a {
-  color: #ffffff;
-  padding: 28px;
-  border-right: 1px solid #fff;
-  margin: 0;
+.navbar-inverse .navbar-nav>li>a,
+.navbar-nav>li>a {
+    color: #ffffff;
+    padding: 28px;
+    border-right: 1px solid #fff;
+    margin: 0;
 }
 
 .navbar-inverse .navbar-nav>li>a:focus{
@@ -4223,10 +4225,11 @@ fieldset[disabled] .navbar-default .btn-link:hover {
 
 .navbar-inverse .navbar-nav>.active>a,
 .navbar-inverse .navbar-nav>.active>a:focus,
-.navbar-inverse .navbar-nav>.active>a:hover {
+.navbar-inverse .navbar-nav>.active>a:hover{
     color: #fff;
     background-color: #03496e;
     padding: 28px;
+    border-right: 1px solid #fff;
 }
 
 .navbar-inverse .navbar-nav>.disabled>a,

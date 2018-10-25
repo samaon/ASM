@@ -117,6 +117,36 @@ ul.nav > li:first-child a {
 .entry-footer > span:last-child:after, .entry-meta > span:last-child:after {
     content: '';
 }
+
+/*-------------------------------
+# table
+-------------------------------*/
+
+#member {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#member td, #member th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    padding-left: 30px;
+}
+
+#member tr:nth-child(even){background-color: #f2f2f2;}
+
+#member tr:hover {background-color: #ddd;}
+
+#member th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #03496e;
+    color: #fff;
+}
+
 .social-sharing {
     margin-top: 20px;
     margin-bottom: 16px;
