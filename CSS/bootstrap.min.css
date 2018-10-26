@@ -950,7 +950,32 @@ pre code {
     display: none;
   }
   .logo-brand > img {
-    max-width: 250px;
+    max-width: 200px;
+  }
+}
+@media (max-width: 768px) {
+  .container-fluid>.navbar-collapse, 
+  .container-fluid>.navbar-header, 
+  .container>.navbar-collapse, 
+  .container>.navbar-header {
+      margin: 0 !important;
+  }
+  .nav>li {
+    display: inline-block !important;
+  }
+  .navbar-inverse .navbar-nav>.active>a, 
+  .navbar-inverse .navbar-nav>.active>a:focus, 
+  .navbar-inverse .navbar-nav>.active>a:hover {
+    color: #fff !important;
+    background-color: #03496e !important;
+    padding: 10px !important;
+  }
+  .navbar-inverse .navbar-nav>li>a, .navbar-nav>li>a {
+    color: #ffffff;
+    padding: 10px !important;
+  }
+  .navbar-nav>li>a {
+    font-size: 12px !important;
   }
 }
 
@@ -2872,11 +2897,11 @@ input[type=submit].btn-block {
 .fade.in {
   opacity: 1
 }
-
+/*
 .collapse {
   display: none
 }
-
+*/
 .collapse.in {
   display: block
 }
